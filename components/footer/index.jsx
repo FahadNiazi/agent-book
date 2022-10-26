@@ -1,13 +1,18 @@
 import { Facebook, Instagram, Twitter, YouTube } from "@mui/icons-material";
-import { Grid, Box, IconButton, Divider } from "@mui/material";
+import { Grid, Box, IconButton, Hidden, useMediaQuery } from "@mui/material";
 import React from "react";
 export const Footer = () => {
+  const ismobile = useMediaQuery("(max-width:600px)");
   return (
     <Box bgcolor="#000518" py={6} mt={6}>
       <Grid container justifyContent="center">
-        <Grid item lg={10}>
-          <Grid container justifyContent="space-between" spacing={5}>
-            <Grid item lg={3}>
+        <Grid item xs={12} lg={10}>
+          <Grid
+            container
+            justifyContent={ismobile ? "center" : "space-between"}
+            spacing={5}
+          >
+            <Grid item xs={11} lg={3}>
               <Box mb={3}>
                 <img alt="logo" src="./logo.png" />
               </Box>
@@ -37,7 +42,7 @@ export const Footer = () => {
                 </IconButton>
               </Box>
             </Grid>
-            <Grid item lg={2}>
+            <Grid item xs={11} lg={2}>
               <Box
                 fontFamily="Lato"
                 fontWeight={600}
@@ -92,7 +97,7 @@ export const Footer = () => {
                 <img src="./hiring.png" />
               </Box>
             </Grid>
-            <Grid item lg={2}>
+            <Grid item xs={11} lg={2}>
               <Box
                 fontFamily="Lato"
                 fontWeight={600}
@@ -146,7 +151,7 @@ export const Footer = () => {
                 <span style={{ marginRight: 8 }}>Careers</span>
               </Box>
             </Grid>
-            <Grid item lg={2}>
+            <Grid item xs={11} lg={2}>
               <Box
                 fontFamily="Lato"
                 fontWeight={600}
@@ -201,29 +206,31 @@ export const Footer = () => {
               </Box>
             </Grid>
           </Grid>
-          <Box
-            mt={5}
-            pt={5}
-            borderTop="1px solid rgba(255, 255, 255, 0.32)"
-            display="flex"
-            justifyContent="space-between"
-            color="rgba(255, 255, 255, 0.6);"
-          >
-            <Box>2022 Agentbook All Rights Reserved</Box>
+          <Hidden mdDown>
             <Box
+              mt={5}
+              pt={5}
+              borderTop="1px solid rgba(255, 255, 255, 0.32)"
               display="flex"
-              fontFamily="Poppins"
               justifyContent="space-between"
-              fontWeight={400}
-              fontSize={14}
-              lineHeight="24px"
-              width={"30%"}
+              color="rgba(255, 255, 255, 0.6);"
             >
-              <Box>Terms & Conditions</Box>
-              <Box>Privacy Policy</Box>
-              <Box>Cookie Policy</Box>
+              <Box>2022 Agentbook All Rights Reserved</Box>
+              <Box
+                display="flex"
+                fontFamily="Poppins"
+                justifyContent="space-between"
+                fontWeight={400}
+                fontSize={14}
+                lineHeight="24px"
+                width={"30%"}
+              >
+                <Box>Terms & Conditions</Box>
+                <Box>Privacy Policy</Box>
+                <Box>Cookie Policy</Box>
+              </Box>
             </Box>
-          </Box>
+          </Hidden>{" "}
         </Grid>
       </Grid>
     </Box>

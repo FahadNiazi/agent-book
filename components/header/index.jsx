@@ -1,14 +1,36 @@
 import { Flag, Menu, Search } from "@mui/icons-material";
-import { Avatar, Box, Button, Grid, InputBase } from "@mui/material";
+import {
+  Avatar,
+  Box,
+  Button,
+  Grid,
+  InputBase,
+  useMediaQuery,
+  Hidden,
+} from "@mui/material";
 
 export const Header = () => {
+  const ismobile = useMediaQuery("(max-width:600px)");
   return (
-    <Box position="relative" mb={2.2}>
-      <img src="./header.png" width="100%" />
+    <Box
+      position="relative"
+      mb={2.2}
+      height={ismobile ? 800 : "unset"}
+      bgcolor={ismobile ? "black" : "white"}
+    >
+      <Hidden mdDown>
+        <img src="./header.png" width="100%" />
+      </Hidden>
       <Box position="absolute" top={0} bottom={0} left={0} right={0} pt={2.5}>
         <Grid container justifyContent="center">
           <Grid item lg={11}>
-            <Box display="flex" justifyContent="space-between" mb={10}>
+            <Box
+              display="flex"
+              justifyContent="space-between"
+              mb={10}
+              padding={ismobile ? 2 : "unset"}
+              alignItems="center"
+            >
               <Box>
                 <img src="./logo.png" />
               </Box>
@@ -29,6 +51,7 @@ export const Header = () => {
               alignItems="center"
               height="100%"
               justifyContent="center"
+              padding={ismobile ? 2 : "unset"}
             >
               <Box
                 fontFamily="Lato"

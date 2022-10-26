@@ -38,7 +38,7 @@ export const TimeConverstation = () => {
         </Button>
       </Grid>
       <Grid item lg={6}>
-        <img src="./agents.png" />
+        <img src="./agents.png" width="100%" />
       </Grid>
     </Grid>
   );

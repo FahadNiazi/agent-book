@@ -6,7 +6,7 @@ export const ChooseAgent = () => {
   return (
     <Grid container mt={9}>
       <Grid item lg={6}>
-        <img src="./choose.png" />
+        <img src="./choose.png" width="100%" />
       </Grid>
       <Grid item lg={6}>
         <Box style={styles.agent}>CHOOSING YOUR AGENT</Box>

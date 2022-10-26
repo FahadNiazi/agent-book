@@ -18,7 +18,7 @@ export default function Home() {
       <Header />
       <Grid container p={5}>
         <Grid item xs={0} md={1}></Grid>
-        <Grid item xs={12} lg={10} md={6} sm={4} xs={12}>
+        <Grid item xs={12} lg={10} md={6}>
           <Box>
             <Box style={styles.title}>Toronto’s Top Rated Agents </Box>
             <Box style={styles.description}>
