@@ -35,13 +35,15 @@ export const Header = () => {
                 <img src="./logo.png" />
               </Box>
               <Box display="flex">
-                <Button variant="outlined">
-                  <Flag />
+                <Button style={{ border: "1px solid white" }}>
+                  <img src="./flag.png" width="21px" height="14px" />
                 </Button>
-                <Button variant="outlined">
-                  <Menu />
-                  <Avatar src="/jone.png" />
-                </Button>
+                <Box display="flex" marginLeft="30px">
+                  <Button style={{ border: "1px solid white", gap: 26 }}>
+                    <Menu style={{ width: 30, height: 30, color: "white" }} />
+                    <Avatar style={{ marginLeft: 5 }} src="/jone.png" />
+                  </Button>
+                </Box>
               </Box>
             </Box>
 
@@ -84,13 +86,24 @@ export const Header = () => {
                 display="flex"
                 alignItems="center"
                 minHeight="86px"
-                width="80%"
+                width="75%"
               >
-                <Search style={{ color: "#9895AB" }} />
+                <Search style={{ color: "#9895AB", marginLeft: 17 }} />
                 <InputBase sx={{ flex: 1, marginLeft: 4 }} />
-                <Button variant="contained" size="large">
-                  Search Agents
-                </Button>
+                <Box>
+                  <Button
+                    style={{
+                      color: "#FFFFFF",
+                      fontFamily: "poppins",
+                      fontSize: 16,
+                      minHeight: 60,
+                      textTransform: "capitalize",
+                    }}
+                    variant="contained"
+                  >
+                    Search Agents
+                  </Button>
+                </Box>
               </Box>
             </Box>
           </Grid>
