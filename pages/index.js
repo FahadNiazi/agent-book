@@ -4,7 +4,7 @@ import joan from "../assests/joan.png";
 import lyda from "../assests/lyda.png";
 import dave from "../assests/dave.png";
 import { TopAgents } from "../components/topAgents";
-import { styles } from "./styles.js";
+import { styles } from "./styles/styles.js";
 import { ChooseAgent } from "../components/chooseAgent";
 import { LocalAgent } from "../components/localAgent";
 import { TimeConverstation } from "../components/timeConverstation";

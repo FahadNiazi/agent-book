@@ -20,3 +20,9 @@ export const styles = {
     marginTop: 153,
   },
 };
+
+const VoidPage = () => {
+  return null;
+};
+
+export default VoidPage;
