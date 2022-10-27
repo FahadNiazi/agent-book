@@ -14,7 +14,7 @@ import { Header } from "../components/header";
 
 export default function Home() {
   return (
-    <Box style={{ backgroundColor: "white", color: "black" }}>
+    <Box>
       <Header />
       <Grid container p={5}>
         <Grid item xs={0} md={1}></Grid>
