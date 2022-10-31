@@ -12,6 +12,8 @@ export const styles = {
     fontFamily: "poppins",
     marginTop: 20,
   },
+  more: { fontWeight: 600, fontFamily: "Poppins", marginLeft: 4 },
+  moreText: { textDecoration: "underline" },
 
   name: {
     color: "#232A43",
@@ -22,22 +24,24 @@ export const styles = {
   intro: {
     color: "#232A43",
     fontSize: 16,
+    paddingBottom: 12,
     fontWeight: 400,
     fontFamily: "poppins",
+    borderBottom: "1px solid #f2f2f2",
   },
   flex: {
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
   },
-  buttonNamme: {
+  buttonName: {
     color: "#FFFFFF",
     fontSize: 16,
     fontWeight: 500,
     fontFamily: "poppins",
     backgroundColor: "#4B6DF3",
     textTransform: "capitalize",
-    marginTop: 20,
+    marginTop: 32,
   },
   flexEnd: {
     display: "flex",

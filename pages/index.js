@@ -30,7 +30,7 @@ export default function Home() {
               <TopAgents
                 image={tim}
                 name="Tim Hortons"
-                intro=" Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the ...More"
+                intro="  Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the. "
                 rating={3.7}
               />
             </Grid>
@@ -38,7 +38,7 @@ export default function Home() {
               <TopAgents
                 image={lyda}
                 name="Lydia Hollie"
-                intro=" Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the ...More"
+                intro="  Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the. "
                 rating={2}
               />
             </Grid>
@@ -46,7 +46,7 @@ export default function Home() {
               <TopAgents
                 image={dave}
                 name="Dave Lordsky"
-                intro=" Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the ...More"
+                intro="  Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the. "
                 rating={2.9}
               />
             </Grid>
@@ -54,12 +54,12 @@ export default function Home() {
               <TopAgents
                 image={tim}
                 name="Tim Hortons"
-                intro=" Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the ...More"
+                intro="  Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the. "
                 rating={5}
               />
             </Grid>
 
-            <Box mt={10} display="flex" justifyContent="center" width="100%">
+            <Box mt={10.3} display="flex" justifyContent="center" width="100%">
               <Stack spacing={2}>
                 <Pagination
                   count={10}
@@ -78,7 +78,7 @@ export default function Home() {
                 <TopAgents
                   image={tim}
                   name="Tim Hortons"
-                  intro=" Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the ...More"
+                  intro="  Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the. "
                   rating={3}
                 />
               </Grid>
@@ -86,7 +86,7 @@ export default function Home() {
                 <TopAgents
                   image={joan}
                   name="Joan Wrigley"
-                  intro=" Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the ...More"
+                  intro="  Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the. "
                   rating={3}
                 />
               </Grid>
@@ -94,7 +94,7 @@ export default function Home() {
                 <TopAgents
                   image={lyda}
                   name="Lydia Hollie"
-                  intro=" Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the ...More"
+                  intro="  Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the. "
                   rating={3}
                 />
               </Grid>
@@ -102,7 +102,7 @@ export default function Home() {
                 <TopAgents
                   image={dave}
                   name="Dave Lordsky"
-                  intro=" Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the ...More"
+                  intro="  Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the Tim is a real estate agent at Kaleidico Realty, with over 8 years of experience. Lynn prides himself in satisfying his clients with the. "
                   rating={3}
                 />
               </Grid>
